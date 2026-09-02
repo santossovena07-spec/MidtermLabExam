@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovena Delos Santos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">SOVENA</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mission">Mission/Vision</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="container text-center">
+        <span class="badge bg-light text-dark mb-3">PERSONAL PORTFOLIO</span>
+        <h1>Hi, I'm Sovena!</h1>
+        <p class="lead">A college student who loves learning, creating, and improving.</p>
+        <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">Who Am I?</h4>
+                        <p class="card-text">
+                            My name is Sovena S. Delos Santos. I am a college student
+                            interested in technology, web design, and creative activities.
+                            I enjoy learning new skills and gaining experiences that can
+                            help me grow personally and academically.
+                        </p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#aboutModal">
+                            More About Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">My Skills</h4>
+
+                        <p class="mb-1">HTML</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+
+                        <p class="mb-1">CSS</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
+
+                        <p class="mb-1">Java</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-dark mt-4 text-center">
+            Always learning, always improving!
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+    <div class="container">
+        <h2 class="text-center mb-4">My Gallery</h2>
+        <p class="text-center mb-4">Some of my favorite memories and activities.</p>
+
+        <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- PUT YOUR FIRST IMAGE HERE -->
+                    <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/767114132_1250715531457349_2897404747615943283_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s958x958&_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEi97svK62daxtZgFNSW6ZOk5lvF5KTA-iTmW8XkpMD6GWX35xI3XW1DK6grrfZwURrcL3VQXyefDC1zPuPsTP3&_nc_ohc=LuOoXYiugv4Q7kNvwESyfVb&_nc_oc=AdpvoQ-e44e0u6ZqfUejxny9Rm-Oe4Tur6zb9OfuGD25eiETK6euumv4uoVoslxrxWY&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=0_sVoyDUOtVw-cMnyp_KCw&_nc_ss=7b2a8&oh=00_AQIYyCQ7fMreUCYvHxM2_8xTOhdjKcB7IRhaarozlonPFQ&oe=6A9E2A49
+                    " class="d-block w-100 gallery-main" alt="Gallery Image 1">
+                </div>
+
+                <div class="carousel-item">
+                    <!-- PUT YOUR SECOND IMAGE HERE -->
+                    <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/652968795_1042301298965441_8191992212087843762_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHExRogR6ux6DYwAxMybgeflhQN_-VbV9GWFA3_5VtX0fKs2oUllAJxqTjG8DmUOwrVCA4u95zcCYoQtcMfiKxf&_nc_ohc=rq41gGrn1vIQ7kNvwFuS9sW&_nc_oc=AdpblyLjVzaMya7RBacN5eMiZSGMzQEM5HqwEbsoKu7v-7Vuf2Ihv2xHIBj0sauIQSE&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=whR7kOqOBccyTDGM308YuA&_nc_ss=7b2a8&oh=00_AQLLMBDzUFUMhjnGz-rnP_ybrpXdw3tc98_KBZTEbSSRyQ&oe=6A9E0BB6
+                    " class="d-block w-100 gallery-main" alt="Gallery Image 2">
+                </div>
+
+                <div class="carousel-item">
+                    <!-- PUT YOUR THIRD IMAGE HERE -->
+                    <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/647210827_1026410903887814_6074432403365982402_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGM7JukqVqCXpt6S-DkaDoA2piZnEBf4wzamJmcQF_jDPCYUlYxqxuhGZmIqT2taLPn9K1UT2N_qkFltLDvkj2G&_nc_ohc=n5D0-aYd0hUQ7kNvwFLoGCJ&_nc_oc=Adr1gsyTJtPtBdhKCCJ1Jd12P-0_YM181gzcEaWFzVUNqPCH66es6zLVHu8z3TcDfpo&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=-YTXGT4BVMxvDRTfNVldAA&_nc_ss=7b2a8&oh=00_AQItUF8wr3XKgPTb9EYFAl3x9SorHBIRieOfUZMIWjPG1g&oe=6A9E1E29
+                    " class="d-block w-100 gallery-main" alt="Gallery Image 3">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-6 col-md-4">
+                <!-- PUT YOUR FOURTH IMAGE HERE -->
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/633503106_999017436627161_2762254557586397382_n.jpg?stp=dst-jpg_tt6&cstp=mx1170x1167&ctp=s1170x1167&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG7_dKG-4mquiZjQuXrvvtdDFtNiw1fbmQMW02LDV9uZLV1UvM4weqItAzEUeBuEBVUa5ldhYbMa8s0vtsJxmMI&_nc_ohc=ixjlt8xz23wQ7kNvwF_wWLC&_nc_oc=Adq2l4sf2TqQLglFKEr9aFP-G8deVjhRsFelNV-FJ8j1F5_Ur8bNTFKyeMJs0-xZ_Mo&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=rF1IKqqnd597eA7CHz7wuQ&_nc_ss=7b2a8&oh=00_AQIcBLhIszZo9WsfP3jLo7ZCMKJumyBWd32-QXYIgQzKOg&oe=6A9DFF70
+                " class="img-fluid gallery-img" alt="Gallery Image 4">
+            </div>
+
+            <div class="col-6 col-md-4">
+                <!-- PUT YOUR FIFTH IMAGE HERE -->
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/615493312_956802517515320_8472529498854677301_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHfKXKtAXJsZruZnONjFYARVykUtDOeMIlXKRS0M54wiT7VqyLkBftcDvax-RpXcKT97InLtOBYyGlEmjnX6_4n&_nc_ohc=WRJ6VyqgH3EQ7kNvwGqlgZ8&_nc_oc=Adr_XxOvIvxm0Wk4lMymCmTmzExCM29PUV9bw2hE4zoaVoBoadTf_3ho_G9YKxh44o4&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=TwT-OoQ__7sFi7ZkJKv6xA&_nc_ss=7b2a8&oh=00_AQJ6he5qC1J3Td8GcK4IciY9nwf_0cTj-MqsJX7PcMPLRg&oe=6A9E13A4
+                " class="img-fluid gallery-img" alt="Gallery Image 5">
+            </div>
+
+            <div class="col-6 col-md-4">
+                <!-- PUT YOUR SIXTH IMAGE HERE -->
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/584770259_880416545153918_217096361869350557_n.jpg?stp=dst-jpg_tt6&cstp=mx828x828&ctp=s828x828&_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeECYODsJmMi5hzfRLYlYjOxn67MqWyXE_WfrsypbJcT9WxD5kL_szKH3LNdoqn8S9OEFgBGFgg8hbYRtolpyGKF&_nc_ohc=HZeIZKW3HqoQ7kNvwHnT2ga&_nc_oc=AdpMKM2Fn8jwx-Cb7vkHc8jeUo1KkrywqEjxAI04H6PDw61bkNySIRq6DOtGVbYK9v8&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=0SFSBgUQ9bcls97llFfRIw&_nc_ss=7b2a8&oh=00_AQJu7SHny5mmMFTNr-3dpPkTKCxs8EqAJqxnGYtmAa9_3g&oe=6A9E1FE7" class="img-fluid gallery-img" alt="Gallery Image 6">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mission" class="section">
+    <div class="container">
+        <h2 class="text-center mb-4">Mission & Vision</h2>
+
+        <div class="accordion" id="missionAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#missionText">
+                        University's Mission
+                    </button>
+                </h2>
+
+                <div id="missionText" class="accordion-collapse collapse show" data-bs-parent="#missionAccordion">
+                    <div class="accordion-body">
+                        As an institution of higher learning, UC (PnC) is committed to equip
+                        individuals with knowledge, skills, and values that will enable them to
+                        achieve their professional goals & provide leadership and service for
+                        national development.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#visionText">
+                        University's Vision
+                    </button>
+                </h2>
+
+                <div id="visionText" class="accordion-collapse collapse" data-bs-parent="#missionAccordion">
+                    <div class="accordion-body">
+                        A premier institution of higher learning in Region IV, developing
+                        globally-competitive and value-laden professionals and leaders
+                        instrumental to community development and nation-building.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-dark w-100">Send Message</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="aboutModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">About Me</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                I believe that every experience is an opportunity to learn something new.
+                I want to continue developing my skills and become a better version of myself.
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer text-center">
+    <div class="container">
+        <p class="mb-0">© 2026 Sovena S. Delos Santos | Personal Portfolio</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
